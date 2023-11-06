@@ -1,0 +1,71 @@
+/* WordCounter.css */
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* Use 100% of the viewport height to center vertically */
+    background-color: #f5f5f5;
+    /* Background color for the container */
+    border: 1px solid #ccc;
+    /* Add a border around the container */
+    padding: 20px;
+    /* Add some padding for spacing */
+    border-radius: 10px;
+    /* Add border radius for a rounded appearance */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* Add a subtle box shadow */
+}
+
+.header {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333;
+    /* Header text color */
+}
+
+.textareacontainer {
+    text-align: center;
+}
+
+.text-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: vertical;
+    margin-bottom: 10px;
+    font-size: 16px;
+    /* Textarea font size */
+    line-height: 1.4;
+    /* Line height for better readability */
+}
+
+.word-count {
+    font-size: 18px;
+    color: #555;
+    font-weight: bold;
+    /* Make the word count text bold */
+    margin-top: 10px;
+    /* Add space between textarea and word count */
+}
+
+/* Add a button for clearing the textarea */
+.clear-button {
+    background-color: #e74c3c;
+    /* Button background color */
+    color: #fff;
+    /* Button text color */
+    border: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.clear-button:hover {
+    background-color: #c0392b;
+    /* Button background color on hover */
+}
